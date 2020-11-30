@@ -27,7 +27,7 @@
             </Submenu>
         </Menu>
         <router-view class="content"></router-view>
-        <div>Copyright © 2019-2020 dexter 苏ICP备20001212号</div>
+        <div class="footer">Copyright © 2019-2020 dexter 苏ICP备20001212号</div>
     </div>
 </template>
 
@@ -113,5 +113,8 @@ html {
     content: "WebSocket";
     position: relative;
     z-index: 100;
+}
+.footer {
+    padding: 10px 0 20px 0;
 }
 </style>
