@@ -1,6 +1,6 @@
 <template>
     <div id="app">
-        <div>Monibuca v2.1.3</div>
+        <div>Monibuca v2.2.6</div>
         <Menu mode="horizontal" :active-name="selectedMenu" @on-select="onMenuSelect"
             style="position: fixed;top: 0;right: 0;">
             <MenuItem name="home" to="/">{{$t('menu.home')}}</MenuItem>
@@ -27,7 +27,7 @@
             </Submenu>
         </Menu>
         <router-view class="content"></router-view>
-        <div>Copyright © 2019-2020 dexter 苏ICP备20001212号</div>
+        <div>Copyright © 2019-2021 dexter 苏ICP备20001212号</div>
     </div>
 </template>
 
