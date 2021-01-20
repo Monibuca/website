@@ -1,24 +1,3 @@
-# dashboard
+# Monibuca 官方网站
 
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+**Monibuca** 是一个开源的 `Go` 语言实现的流媒体服务器开发框架。
