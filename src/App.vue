@@ -1,33 +1,75 @@
 <template>
     <div id="app">
-        <div>Monibuca v2.2.6</div>
-        <Menu mode="horizontal" :active-name="selectedMenu" @on-select="onMenuSelect"
-            style="position: fixed;top: 0;right: 0;">
-            <MenuItem name="home" to="/">{{$t('menu.home')}}</MenuItem>
-            <MenuItem name="docs" to="http://docs.monibuca.com" target="_blank">{{$t('menu.docs')}}</MenuItem>
-            <MenuItem name="console" to="http://demo.monibuca.com" target="_blank">{{$t('menu.demo')}}</MenuItem>
+        <div>m7s v3.0 alpha</div>
+        <Menu
+            mode="horizontal"
+            :active-name="selectedMenu"
+            @on-select="onMenuSelect"
+            style="position: fixed; top: 0; right: 0"
+        >
+            <MenuItem name="home" to="/">{{ $t("menu.home") }}</MenuItem>
+            <MenuItem
+                name="docs"
+                to="http://docs.monibuca.com"
+                target="_blank"
+                >{{ $t("menu.docs") }}</MenuItem
+            >
+            <MenuItem
+                name="console"
+                to="http://demo.monibuca.com"
+                target="_blank"
+                >{{ $t("menu.demo") }}</MenuItem
+            >
             <Submenu name="plugins">
-                <template slot="title">{{$t('menu.plugins')}}</template>
-                <MenuItem name="gateway" target="_blank" to="https://github.com/Monibuca/plugin-gateway">gateway
+                <template slot="title">{{ $t("menu.plugins") }}</template>
+                <MenuItem
+                    name="gateway"
+                    target="_blank"
+                    to="https://github.com/Monibuca/plugin-gateway"
+                    >gateway
                 </MenuItem>
-                <MenuItem name="jessica" target="_blank" to="https://github.com/Monibuca/plugin-jessica">Jessica
+                <MenuItem
+                    name="jessica"
+                    target="_blank"
+                    to="https://github.com/Monibuca/plugin-jessica"
+                    >Jessica
                 </MenuItem>
-                <MenuItem name="cluster" target="_blank" to="https://github.com/Monibuca/plugin-cluster">cluster
+                <MenuItem
+                    name="cluster"
+                    target="_blank"
+                    to="https://github.com/Monibuca/plugin-cluster"
+                    >cluster
                 </MenuItem>
-                <MenuItem name="rtmp" target="_blank" to="https://github.com/Monibuca/plugin-rtmp">RTMP</MenuItem>
-                <MenuItem name="logrotate" target="_blank" to="https://github.com/Monibuca/plugin-logrotate">logrotate
+                <MenuItem
+                    name="rtmp"
+                    target="_blank"
+                    to="https://github.com/Monibuca/plugin-rtmp"
+                    >RTMP</MenuItem
+                >
+                <MenuItem
+                    name="logrotate"
+                    target="_blank"
+                    to="https://github.com/Monibuca/plugin-logrotate"
+                    >logrotate
                 </MenuItem>
             </Submenu>
-            <MenuItem name="market" to="https://plugins.monibuca.com" target="_blank">{{$t('menu.market')}}</MenuItem>
-            <MenuItem name="about" to="about">{{$t('menu.support')}}</MenuItem>
+            <MenuItem
+                name="market"
+                to="https://plugins.monibuca.com"
+                target="_blank"
+                >{{ $t("menu.market") }}</MenuItem
+            >
+            <MenuItem name="about" to="about">{{
+                $t("menu.support")
+            }}</MenuItem>
             <Submenu name="language">
-                <template slot="title">{{$t('menu.language')}}</template>
+                <template slot="title">{{ $t("menu.language") }}</template>
                 <MenuItem name="zh">中文</MenuItem>
                 <MenuItem name="en">English</MenuItem>
             </Submenu>
         </Menu>
         <router-view class="content"></router-view>
-        <div class="footer">Copyright © 2019-2020 dexter 苏ICP备20001212号</div>
+        <div class="footer">Copyright © 2019-2021 dexter 苏ICP备20001212号</div>
     </div>
 </template>
 
@@ -36,7 +78,7 @@ export default {
     name: "app",
     data() {
         return {
-            selectedMenu: "home"
+            selectedMenu: "home",
         };
     },
     mounted() {
@@ -53,8 +95,8 @@ export default {
                 case "zh":
                     this.$i18n.locale = name;
             }
-        }
-    }
+        },
+    },
 };
 </script>
 

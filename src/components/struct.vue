@@ -66,7 +66,7 @@ const publishers = [
     [{ label: "Pusher" }, { label: "rtmp" }],
     [{ label: "Pusher" }, { label: "rtsp" }],
     [{ label: "chrome"}, { label: "webrtc"}],
-    [{ label: "camera" ,pull:true}, { label: "rtsp",pull:true }],
+    [{ label: "camera" ,pull:true}, { label: "gb28181",pull:true }],
     [{ label: "m3u8",pull:true }, { label: "hls",pull:true }, { label: "ts",pull:true }],
     [{ label: "flv files" ,pull:true}, { label: "record",pull:true }],
     [{ label: "ts files" ,pull:true}, { label: "ts" ,pull:true}]
