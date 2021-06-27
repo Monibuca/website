@@ -1,6 +1,6 @@
 <template>
     <div id="app">
-        <div>m7s v3.0 alpha</div>
+        <div>m7s v3.0.2</div>
         <Menu
             mode="horizontal"
             :active-name="selectedMenu"
@@ -20,7 +20,13 @@
                 target="_blank"
                 >{{ $t("menu.demo") }}</MenuItem
             >
-            <Submenu name="plugins">
+            <MenuItem
+                name="console"
+                to="http://jessibuca.monibuca.com"
+                target="_blank"
+                >jessibuca</MenuItem
+            >
+            <!-- <Submenu name="plugins">
                 <template slot="title">{{ $t("menu.plugins") }}</template>
                 <MenuItem
                     name="gateway"
@@ -52,7 +58,7 @@
                     to="https://github.com/Monibuca/plugin-logrotate"
                     >logrotate
                 </MenuItem>
-            </Submenu>
+            </Submenu> -->
             <MenuItem
                 name="market"
                 to="https://plugins.monibuca.com"
