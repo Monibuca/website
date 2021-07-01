@@ -75,7 +75,7 @@
             </Submenu>
         </Menu>
         <router-view class="content"></router-view>
-        <div class="footer">Copyright © 2019-2021 dexter 苏ICP备20001212号</div>
+        <div class="footer">Copyright © 2019-2021 dexter <a href="http://beian.miit.gov.cn/">苏ICP备20001212号</a></div>
     </div>
 </template>
 
