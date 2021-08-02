@@ -1,6 +1,6 @@
 <template>
     <div id="app">
-        <div>m7s v3.1.1</div>
+        <div>m7s v3.2.8</div>
         <Menu
             mode="horizontal"
             :active-name="selectedMenu"
