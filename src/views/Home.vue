@@ -113,7 +113,7 @@ import cluster from "../components/cluster";
 export default {
     data() {
         return {
-            publishers: ["rtmp", "rtsp", "hls", "ts", "record", "webrtc"],
+            publishers: ["rtmp", "rtsp", "hls", "ts", "record", "webrtc","gb28181"],
             subscribers: [
                 "rtmp",
                 "jessica",

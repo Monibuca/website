@@ -12,13 +12,13 @@
     "slogan2": "Monibuca engine + plugins = customized streaming server",
     "feature": {
         "title1": "⚡High performance",
-        "feature1": "Make full use of the characteristics of goroutine of golang to allocate computing resources reasonably for reading and writing of a large number of connections",
+        "feature1": "The publish and subscribe mechanism is well designed, lock free, read and write non blocking, and the ring buffer reuses the memory; Use object pool to reduce memory allocation; Excellent performance in embedded",
         "title2": "🧩Modular and scalable",
         "feature2": "Specially designed for secondary development, based on the golang language, the development efficiency is higher; the original plug-in mechanism can facilitate users to customize personalized function combination, and make more efficient use of server resources.",
         "title3": "📈Visual and easy to manage",
         "feature3": "The powerful dashboard can intuitively see the status of server operation, consumed resources, and other statistics. Users can use the console to configure and control the server. Click the demo in the menu bar in the upper right corner to see the demo console interface.",
         "title4": "🐹Zero dependency and easy deployment",
-        "feature4": "Pure go writing, independent of CGO, independent of ffmpeg or other runtime, is extremely convenient to deploy and requires a very loose server."
+        "feature4": "Pure go writing, independent of CGO, independent of ffmpeg or other runtime, is extremely convenient to deploy and requires a very loose server.Executable files can be downloaded directly from this page for one click deployment."
     },
     "g": {
         "pusher": "Pusher",
