@@ -35,5 +35,13 @@
       "source": "/plugin/(.*)",
       "destination": "/api/plugin"
     },
-    { "source": "/(.*)", "destination": "/" }]
+    {
+      "source": "/docs/(.*)",
+      "destination": "https://monibuca.com/docs"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/"
+    }
+  ]
 }
