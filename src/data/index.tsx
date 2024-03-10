@@ -259,19 +259,19 @@ export const Footer10DataSource = {
         childWrapper: {
           children: [
             {
-              href: 'https://monibuca.com/about/faq.html',
+              href: 'https://monibuca.com/about?tab=0',
               name: 'link0',
               target: '_blank',
               children: 'FAQ'
             },
             {
-              href: 'https://monibuca.com/about/team.html',
+              href: 'https://monibuca.com/about?tab=1',
               name: 'link1',
               target: '_blank',
               children: '开发团队'
             },
             {
-              href: 'https://monibuca.com/about/born.html',
+              href: 'https://monibuca.com/about?tab=2',
               name: 'link2',
               target: '_blank',
               children: '诞生故事'

@@ -7,17 +7,25 @@ import { getChildrenToRender as kunRender } from '../utils';
 
 TweenOne.plugins.push(Children);
 
+function getUrlParameter(parameter) {
+  // 获取当前URL的查询字符串
+  const queryString = window.location.search;
+  // 解析查询字符串
+  const urlParams = new URLSearchParams(queryString);
+  return Number(urlParams.get(parameter) || 0);
+}
+
 class Feature14 extends React.PureComponent {
   constructor(props) {
     super(props);
     this.carouselRef = React.createRef();
     this.state = {
-      current: 0
+      current: 0,
+      defaultActiveKey: getUrlParameter('tab')
     };
   }
-
   getChildrenToRender = (dataSource, isMobile) => {
-    const { current } = this.state;
+    const { current, defaultActiveKey } = this.state;
     const { tabs } = dataSource;
     const { titleWrapper, children: childWrapper, wrapper } = tabs;
 
@@ -67,6 +75,7 @@ class Feature14 extends React.PureComponent {
           tabPosition={isMobile ? 'top' : 'left'}
           type={isMobile ? 'line' : 'card'}
           tabBarGutter={isMobile ? 20 : 9}
+          defaultActiveKey={defaultActiveKey}
           items={childWrapper.map((item, i) => {
             return {
               label: item.title.children,
