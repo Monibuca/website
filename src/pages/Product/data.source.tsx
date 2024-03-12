@@ -42,7 +42,7 @@ export const Feature110DataSource = {
                   <div className="imgbox">
                     <div className="imgbox-t1">Monibuca</div>
                     <div className="imgbox-t2">开源Go语言流媒体服务器开发框架</div>
-                    <img alt="" className="imgbox-img" src="/img/m-icon.png" />
+                    <img alt="" className="imgbox-img" src="/img/mb.png" />
                   </div>
                   <Space direction="vertical" align="start">
                     {/* <div className='title'>从零启动 m7s V4</div> */}
@@ -73,8 +73,8 @@ export const Feature110DataSource = {
                 <Space className="item" direction="vertical">
                   <div className="imgbox">
                     <div className="imgbox-t1">Jessibuca</div>
-                    <div className="imgbox-t2">纯H5直播流播放器</div>
-                    <img alt="" className="imgbox-img" src="/img/m-icon.png" />
+                    <div className="imgbox-t2">纯H5音视频流播放器</div>
+                    <img alt="" className="imgbox-img" src="/img/jb.png" />
                   </div>
                   <Space direction="vertical" align="start">
                     {/* <div className='title'>从零启动 m7s V4</div> */}
@@ -105,7 +105,7 @@ export const Feature110DataSource = {
                   <div className="imgbox">
                     <div className="imgbox-t1">Rebebuca</div>
                     <div className="imgbox-t2">Rust 桌面端 FFMPEG 管理器</div>
-                    <img alt="" className="imgbox-img" src="/img/m-icon.png" />
+                    <img alt="" className="imgbox-img" src="/img/rb.png" />
                   </div>
                   <Space direction="vertical" align="start">
                     <div className="desc">
