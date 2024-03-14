@@ -99,6 +99,10 @@ const plugins3 = [
     desc: '支持公网语音对讲，需要购买硬件'
   },
   {
+    name: 'plugin-llhls',
+    desc: '支持LLHLS协议，提供低延迟播放'
+  },
+  {
     name: 'plugin-admin',
     desc: '精美UI界面'
   },
