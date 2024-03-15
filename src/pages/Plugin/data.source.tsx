@@ -25,7 +25,8 @@ const plugins = {
   logrotate: '提供日志轮转能力',
   edge: '可以m7s实例作为边缘节点',
   debug: '提供调试能力',
-  monitor: '提供监控数据存储和访问'
+  monitor: '提供监控数据存储和访问',
+  demo: '提供构建插件的示例代码',
 }
 
 const plugins2 = [
