@@ -56,6 +56,11 @@ const plugins2 = [
     url: 'https://github.com/erroot/plugin-transform'
   },
   {
+    name: 'plugin-erwscascade',
+    desc: '基于webscoket 实现m7s 流媒体之间平台级联',
+    url: 'https://github.com/erroot/plugin-erwscascade'
+  },
+  {
     name: '虚位以待',
     desc: '可联系我们添加到此列表',
     url: ''

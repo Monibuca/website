@@ -28,12 +28,12 @@
       "destination": "/api/engine"
     },
     {
-      "source": "/plugin/transcode/v4",
-      "destination": "/api/plugin-pro"
-    },
-    {
       "source": "/plugin/(.*)",
       "destination": "/api/plugin"
+    },
+    {
+      "source": "/monibuca/(.*)",
+      "destination": "/api/monibuca"
     },
     {
       "source": "/docs/(.*)",
