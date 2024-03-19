@@ -36,6 +36,10 @@
       "destination": "/api/monibuca"
     },
     {
+      "source": "/m7s/(.*)",
+      "destination": "/api/monibuca"
+    },
+    {
       "source": "/docs/(.*)",
       "destination": "https://monibuca.com/docs"
     },
