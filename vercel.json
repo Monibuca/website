@@ -40,8 +40,12 @@
       "destination": "/api/monibuca"
     },
     {
-      "source": "/docs/(.*)",
-      "destination": "https://monibuca.com/docs"
+      "source": "/docs/:path*",
+      "destination": "https://monibuca.com/docs/:path*"
+    },
+    {
+      "source": "/guide/:path*",
+      "destination": "https://monibuca.com/docs/guide/:path*"
     },
     {
       "source": "/(.*)",
