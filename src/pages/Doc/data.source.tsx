@@ -83,6 +83,26 @@ const data = [
       },
     ]
   },
+  {
+    title: "公众号文章",
+    children: [
+      {
+        title: '🔑 最佳实践',
+        content: '入门必看系列',
+        href: 'https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzkyMDQ5Nzg5MQ==&action=getalbum&album_id=2958436172576423938&scene=173&from_msgid=2247483770&from_itemidx=1&count=3&nolastread=1#wechat_redirect',
+      },
+      {
+        title: '🗃️ 发布历史',
+        content: '版本和新特性',
+        href: 'https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzkyMDQ5Nzg5MQ==&action=getalbum&album_id=2957672813660831747#wechat_redirect',
+      },
+      {
+        title: '🔬 技术原理',
+        content: '对框架原理的深入解读',
+        href: 'https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzkyMDQ5Nzg5MQ==&action=getalbum&album_id=2979318380627460104#wechat_redirect'
+      },
+    ]
+  }
 ];
 export const Feature140DataSource = {
   wrapper: { className: 'home-page-wrapper Feature14-wrapper' },
