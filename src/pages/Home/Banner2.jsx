@@ -46,7 +46,7 @@ class Banner extends React.PureComponent {
         <Element key={i.toString()} followParallax={follow} {...elem} prefixCls={elemClassName}>
           <BgElement key="bg" {...bg} id={`bg${i}`} />
           <div {...page}>
-            <QueueAnim
+            <div
               type={['bottom', 'top']}
               delay={200}
               key="text"
@@ -82,7 +82,7 @@ class Banner extends React.PureComponent {
                   {button2.children}
                 </div>
               </Space>
-            </QueueAnim>
+            </div>
           </div>
         </Element>
       );
