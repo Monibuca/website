@@ -32,12 +32,12 @@
       "destination": "/api/plugin"
     },
     {
-      "source": "/monibuca/(.*)",
-      "destination": "/api/monibuca"
+      "source": "/pro",
+      "destination": "/api/v5"
     },
     {
-      "source": "/m7s/(.*)",
-      "destination": "/api/monibuca"
+      "source": "/pro/(.*)",
+      "destination": "/api/v5"
     },
     {
       "source": "/docs/:path*",
