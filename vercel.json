@@ -32,11 +32,11 @@
       "destination": "/api/plugin"
     },
     {
-      "source": "/pro",
+      "source": "/v5",
       "destination": "/api/v5"
     },
     {
-      "source": "/pro/(.*)",
+      "source": "/v5/(.*)",
       "destination": "/api/v5"
     },
     {
