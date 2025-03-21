@@ -59,8 +59,6 @@ const commonThemeConfig = (locales: '' | 'zh' | 'en' = '', translation = transla
         { text: translation.sidebar.encryption, link: locales + '/features/encryption' },
         { text: translation.sidebar.screenshot, link: locales + '/features/screenshot' },
         { text: translation.sidebar.preview, link: locales + '/features/preview' },
-        { text: translation.sidebar.monitoring, link: locales + '/features/monitoring' },
-        { text: translation.sidebar.cluster, link: locales + '/features/cluster' }
       ]
     },
     {
