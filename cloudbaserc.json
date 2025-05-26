@@ -1,0 +1,21 @@
+{
+    "envId": "cloud1-3gppqyry4339964b",
+    "version": "2.0",
+    "$schema": "https://framework-1258016615.tcloudbaseapp.com/schema/latest.json",
+    "functionRoot": "./functions",
+    "functions": [],
+    "region": "ap-shanghai",
+    "framework": {
+        "name": "website-v4",
+        "plugins": {
+            "website": {
+                "use": "@cloudbase/framework-plugin-website",
+                "inputs": {
+                    "buildCommand": "npm run build",
+                    "installCommand": "pnpm i",
+                    "outputPath": "./dist"
+                }
+            }
+        }
+    }
+}

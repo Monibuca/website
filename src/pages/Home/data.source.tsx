@@ -91,7 +91,7 @@ export const Banner20DataSource = {
           children: '社区版',
           style: isMobile ? { width: '40vw', background: '#263036' } : { background: '#263036' },
           onClick: () => {
-            window.open('https://github.com/langhuihui/monibuca')
+            window.open('https://github.com/Monibuca/v4')
           }
         },
         button2: {

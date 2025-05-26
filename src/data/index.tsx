@@ -27,6 +27,14 @@ export const Nav30DataSource = {
         }
       },
       {
+        name: '/v5',
+        className: 'header3-item',
+        children: {
+          href: 'http://v5.monibuca.com',
+          children: [{ children: 'V5', name: 'text' }]
+        }
+      },
+      {
         name: '/doc',
         className: 'header3-item',
         children: {
