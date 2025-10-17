@@ -15,7 +15,7 @@ pnpm install
 Start the development server:
 
 ```bash
-pnpm docs:dev
+pnpm dev
 ```
 
 ### Build
@@ -23,7 +23,7 @@ pnpm docs:dev
 Build the site for production:
 
 ```bash
-pnpm docs:build
+pnpm build
 ```
 
 ### Preview
@@ -31,25 +31,20 @@ pnpm docs:build
 Preview the production build locally:
 
 ```bash
-pnpm docs:preview
+pnpm preview
 ```
 
-## Testing with Playwright
+## Testing
 
-This project uses Playwright for end-to-end testing.
+This project ships with custom integration checks for the local search experience.
 
-### Install Playwright
+### Search verification
 
 ```bash
-pnpm add -D @playwright/test
-pnpm exec playwright install
+pnpm test:search
 ```
 
-### Run Tests
-
-```bash
-pnpm test
-```
+> Runs `node tests/verify-search.js`. The script expects a local dev server at `http://localhost:5173` and a Chromium instance started with `--remote-debugging-port=9222`.
 
 ## Project Structure
 
