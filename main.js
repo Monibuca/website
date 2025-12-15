@@ -34,29 +34,20 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 
 // Header scroll effect
 const header = document.querySelector('header');
-let lastScrollY = window.scrollY;
+if (header) {
+  let lastScrollY = window.scrollY;
 
-window.addEventListener('scroll', () => {
-  if (window.scrollY > lastScrollY) {
-    header.style.transform = 'translateY(-100%)';
-  } else {
-    header.style.transform = 'translateY(0)';
-  }
-  lastScrollY = window.scrollY;
-});
+  window.addEventListener('scroll', () => {
+    if (window.scrollY > lastScrollY) {
+      header.style.transform = 'translateY(-100%)';
+    } else {
+      header.style.transform = 'translateY(0)';
+    }
+    lastScrollY = window.scrollY;
+  });
 
-// Add transition to header
-header.style.transition = 'transform 0.3s ease-in-out';
-
-// Mobile menu functionality (if needed in the future)
-// const mobileMenuButton = document.querySelector('.mobile-menu-button');
-// const navLinks = document.querySelector('.nav-links');
-
-// if (mobileMenuButton) {
-//     mobileMenuButton.addEventListener('click', () => {
-//         navLinks.classList.toggle('active');
-//     });
-// }
+  header.style.transition = 'transform 0.3s ease-in-out';
+}
 
 // Intersection Observer for fade-in animations
 const observerOptions = {
