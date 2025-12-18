@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#7C3AED"/>
+      <stop offset="100%" style="stop-color:#4F46E5"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect x="16" y="16" width="224" height="224" rx="48" fill="url(#bg)"/>
+
+  <!-- Binary code background rows -->
+  <g font-family="monospace" font-size="16" font-weight="bold" fill="white">
+    <text x="20" y="200" opacity="0.1">10110100110101101011010</text>
+    <text x="85" y="216" opacity="0.15">011010110101101011</text>
+  </g>
+
+  <!-- Magnifier circle -->
+  <circle cx="118" cy="118" r="56" fill="none" stroke="white" stroke-width="14"/>
+
+  <!-- Play triangle with rounded corners -->
+  <path d="M104 95 Q100 92 100 97 L100 139 Q100 144 104 141 L138 121 Q144 118 138 115 Z" fill="white"/>
+
+  <!-- Magnifier handle -->
+  <line x1="156" y1="156" x2="196" y2="196" stroke="white" stroke-width="14" stroke-linecap="round"/>
+</svg>
+

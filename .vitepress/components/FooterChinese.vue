@@ -110,15 +110,31 @@
             </div>
           </div>
         </div>
-        <section>
+        <section class="friend-section">
           <div class="link-column">
             <h3>友情链接</h3>
-            <a href="https://hellogithub.com/" target="blank">
-              <img
-                :src="withBase('/img/hellogithub_white.png')"
-                alt="HelloGithub"
-              />
-            </a>
+            <div class="friend-links">
+              <a href="https://hellogithub.com/" target="_blank" class="friend-link-item">
+                <img
+                  :src="withBase('/img/hellogithub_white.png')"
+                  alt="HelloGithub"
+                />
+              </a>
+              <a href="https://mediainsight360.com/" target="_blank" class="friend-link-item">
+                <img
+                  :src="withBase('/img/mediainsight360.svg')"
+                  alt="MediaInsight360"
+                  class="friend-icon"
+                />
+                <span>MediaInsight</span>
+              </a>
+              <a href="https://iotdoc.sagoo.cn/" target="_blank" class="friend-link-item">
+                <img
+                  :src="withBase('/img/sagoo.png')"
+                  alt="SagooIoT"
+                />
+              </a>
+            </div>
           </div>
         </section>
       </div>
@@ -378,6 +394,53 @@ const showQQChannelQR = ref(false);
   width: 100px;
   height: 100px;
   border-radius: 4px;
+}
+
+.friend-links {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+}
+
+.friend-link-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  height: 24px;
+  transition: opacity 0.2s;
+  color: #fff;
+  font-size: 14px;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.friend-link-item:hover {
+  opacity: 0.8;
+}
+
+.friend-link-item img {
+  height: 100%;
+  width: auto;
+  object-fit: contain;
+}
+
+.friend-link-item .friend-icon {
+  height: 20px;
+  width: 20px;
+}
+
+.friend-section {
+  grid-column: 1 / -1;
+}
+
+.friend-section .link-column h3 {
+  color: #fff;
+}
+
+.friend-section .link-column a {
+  color: #fff;
 }
 
 @media (max-width: 1100px) {
